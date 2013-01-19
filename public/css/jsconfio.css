@@ -9,7 +9,7 @@ body {
   font-family: 'ABeeZee', sans-serif;
   padding-bottom: 200px;
 }
-hr { border: 0px; background: 0px; border-top: 1px solid #333;}
+#content { display:block;border-top: 1px solid #333; border-bottom: 1px solid #333;  padding: 20px; }
 h2 {
     margin-bottom: 24px;
 }
@@ -17,12 +17,14 @@ a img {
   border: 0px;
 }
 #frame {
-  width:880px;
+  width:90%;
   margin: 0px auto;
   padding: 12px;
   background:white;
   
 }
+#top { text-align: right;}
+#confIcons { text-align: right;}
 .conf {
   margin: 10px;
   /*height: 250px;
@@ -35,12 +37,16 @@ a img {
     background: black;
 }
 */
-
+#header { float: left; padding: 0px 20px;}
 h1 { 
   font-family: 'Poiret One', cursive;
   color: #333;
   font-size: 40px;
+  margin-bottom: 4px;
+  margin-top: 12px;
 }
+
+#content h1 {margin: 0px;}
 h1 sup { color: #ccc; font-size: 12px}
 h2 {
 font-size:12px; }
