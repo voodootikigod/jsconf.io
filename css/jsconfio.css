@@ -1,0 +1,77 @@
+
+body {
+  text-align: center;
+  font-size:12px;
+  background:white;
+  padding:0px;
+  margin:0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'ABeeZee', sans-serif;
+  padding-bottom: 200px;
+}
+#content { display:block;border-top: 1px solid #333; border-bottom: 1px solid #333;  padding: 20px; }
+h2 {
+    margin-bottom: 24px;
+}
+a img {
+  border: 0px;
+}
+#frame {
+  width:90%;
+  margin: 0px auto;
+  padding: 12px;
+  background:white;
+  
+}
+#top { text-align: right;}
+#confIcons { text-align: right;}
+.conf {
+  margin: 10px;
+  /*height: 250px;
+  width: 365px;
+  text-align: center;
+  float: left;*/
+}
+/*#footer{
+    height:1px;
+    background: black;
+}
+*/
+#header { float: left; padding: 0px 20px;}
+h1 { 
+  font-family: 'Poiret One', cursive;
+  color: #333;
+  font-size: 40px;
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+
+#content h1 {margin: 0px;}
+h1 sup { color: #ccc; font-size: 12px}
+h2 {
+font-size:12px; }
+hr { margin: 20px 10px;}
+.conf {  display: block; float: left;}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+ 
+.clearfix {
+  display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+  display: block;
+}
+ 
+* html .clearfix {
+  height: 1%;
+}
+
+div.conf p { display: block; font-weight: bold; font-size: 16px; margin-bottom: 0px;}
+section { font-size: 16px; color: #333; text-align: justify; padding: 0px 24px ;}
